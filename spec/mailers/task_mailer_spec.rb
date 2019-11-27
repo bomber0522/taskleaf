@@ -17,7 +17,7 @@ describe TaskMailer, type: :mailer do
     it '想定どおりのメールが生成されている' do
       # ヘッダ
       expect(mail.subject).to eq('タスク作成完了メール')
-      expect(mail.to).to eq(['user@example.com'])
+      expect(mail.to).to eq(['takaki55730317@gmail.com'])
       expect(mail.from).to eq(['taskleaf@example.com'])
 
       # text形式の本文
