@@ -73,3 +73,4 @@ gem 'rails_autolink'
 gem 'ransack'
 gem 'mini_magick'
 gem "aws-sdk-s3", require: false
+gem 'kaminari'
