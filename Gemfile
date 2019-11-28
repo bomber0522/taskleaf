@@ -74,3 +74,4 @@ gem 'ransack'
 gem 'mini_magick'
 gem "aws-sdk-s3", require: false
 gem 'kaminari'
+gem 'sidekiq', '~> 5.2', '>= 5.2.7'
